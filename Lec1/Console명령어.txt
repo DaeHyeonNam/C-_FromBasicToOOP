@@ -1,0 +1,24 @@
+ID: cs20161080
+PW: 55pstudy
+
+For mac
+Terminal에서
+ssh cs20161080@uni06.unist.ac.kr 
+
+
+
+Console 명령어
+
+mkdir : make directory
+cd : change directory
+	cd .. : 상위폴더로 이동
+	cd ./folder/folder2 :현재폴더의 folder의  folder2로 이동.
+	cd ../.. : 상위폴더의 상위폴더로 이동
+cp ./prev.cpp ./new.cpp : prev.cpp를 new.cpp로 복사
+mv ./prev.cpp ./new.cpp : prev.cpp를 new.cpp로 이동(prev.cpp는 삭제됨)
+ls : list
+vi xxxx.cpp : xxxx.cpp 열기
+g++ xxxx.cpp : xxxx.cpp파일 컴파일, ./a.out으로 실행파일 생성
+g++ -o xxxx xxxx.cpp : xxxx.cpp 파일 컴파일, xxxx라는 이름으로 실행파일 생성
+./aout
+./xxxx : 실행파일 실행.
