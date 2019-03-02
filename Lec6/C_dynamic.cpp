@@ -6,3 +6,4 @@ int main()
 	*a= 4;
 	free(a); // delete
 }
+

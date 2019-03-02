@@ -6,7 +6,7 @@ int main()
 {
 	int a =10;
 	int* ptr;
-	int **pptr; //pointer of pointer
+	int** pptr; //pointer of pointer
 	
 	ptr= &a;
 	pptr = &ptr;
