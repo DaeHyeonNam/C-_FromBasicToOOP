@@ -4,6 +4,7 @@ using namespace std;
 
 void countDown(int num)
 {
+
 	if(num == 0)
 	{
 		cout<<num<<endl;
@@ -13,7 +14,7 @@ void countDown(int num)
 	{
 		cout<<num<<endl;
 		countDown(num-1);
-		//cout<<num<<endl;
+		cout<<num<<endl;
 	}
 }
 

@@ -6,13 +6,13 @@ using namespace std;
 
 int main()
 {
-	int v[100];
+	int v[20];
 	srand((unsigned)time(0));
-	for(int i=0; i<100; i++)
+	for(int i=0; i<20; i++)
 	{
-		v[i] = rand()%50;
+		v[i] = rand()%20;
 	}
-	for(int i=0; i<100; i++)
+	for(int i=0; i<20; i++)
 	{
 		cout<<v[i]<<endl;
 	}
